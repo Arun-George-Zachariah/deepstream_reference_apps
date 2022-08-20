@@ -44,7 +44,7 @@ streammux:
   height: 1080
 
 sink0:
-  enable: 1
+  enable: 0
   #Type - 1: FakeSink 2: EglSink 3: File
   type: 2
   sync: 1
@@ -75,7 +75,7 @@ primary-gie:
   config-file: config_infer_primary_dashcamnet.yml
 
 sink1:
-  enable: 0
+  enable: 1
   type: 3
   #1=mp4 2=mkv
   container: 1
